@@ -24,10 +24,5 @@ public class SyliaArmorMain extends JavaPlugin {
         pm.registerEvents(new SPlayerWearArmors(), this);
         pm.registerEvents(new SPlayerGetDamage(), this);
     }
-
-    public void reloadConfigs(){
-        reloadConfig();
-    }
-
     public static SyliaArmorMain getInstance(){ return instance; }
 }
