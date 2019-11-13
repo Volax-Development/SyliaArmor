@@ -1,10 +1,2 @@
-armors:
-  combat:
-    helmet: "nom que tu veux"
-    chestplate: "nom que tu veux"
-    leggings: "nom que tu veux"
-    boots: "nom que tu veux"
-items:
-  battleaxe: "nom que tu veux"
 permissions:
   sarmor-use: "sarmor.use"

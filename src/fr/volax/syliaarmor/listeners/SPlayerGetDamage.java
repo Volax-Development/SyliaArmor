@@ -11,6 +11,7 @@ public class SPlayerGetDamage implements Listener {
         if (!(e.getEntity() instanceof Player)) { return; }
         Player p = (Player) e.getEntity();
         if (e.getCause() == EntityDamageEvent.DamageCause.FALL) {
+            if(p.getInventory().getBoots() == null){ return; }
             if(p.getInventory().getBoots().getItemMeta().getDisplayName().equals("§7» §4Sylia§7'§cBoots")){
                 e.setCancelled(true);
                 return;
