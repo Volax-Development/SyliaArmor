@@ -1,0 +1,9 @@
+main: fr.volax.syliaarmor.SyliaArmorMain
+name: SyliaArmor
+version: 1.0
+description: SyliaArmor plugin
+author: Volax
+website: https://github.com/VolaxYT
+commands:
+  sarmor:
+    description: Commande Principal
